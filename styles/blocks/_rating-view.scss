@@ -16,13 +16,13 @@
 		--size: #{rem(24)};
 
 		@include square(var(--size));
-		background-image: url('../../icons/star-gray.svg');
+		background-image: url('/Future-tech/icons/star-gray.svg');
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: contain;
 
 		&.is-active {
-			background-image: url('../../icons/star-yellow.svg');
+			background-image: url('/Future-tech/icons/star-yellow.svg');
 			background-repeat: no-repeat;
 		}
 

@@ -337,7 +337,7 @@ svg * {
   translate: 0 -50%;
   content: "";
   right: 0;
-  background: url("../../icons/arrow-top-black.svg") center no-repeat var(--color-accent);
+  background: url("/Future-tech/icons/arrow-top-black.svg") center no-repeat var(--color-accent);
   border-radius: 50%;
 }
 
@@ -495,13 +495,13 @@ button[aria-label]::before {
   }
 }
 .icon--yellow-arrow::after {
-  background-image: url("../../icons/yellow-arrow.svg");
+  background-image: url("/Future-tech/icons/yellow-arrow.svg");
 }
 .icon--yellow-i::after {
-  background-image: url("../../icons/eye-yellow.svg");
+  background-image: url("/Future-tech/icons/eye-yellow.svg");
 }
 .icon--gray-arrow-down::after {
-  background-image: url("../../icons/arrow-down-gray.svg");
+  background-image: url("/Future-tech/icons/arrow-down-gray.svg");
 }
 
 .logo {
@@ -1098,7 +1098,7 @@ button[aria-label]::before {
   grid-area: resources-preview;
   padding-left: 5rem;
   padding-bottom: 5rem;
-  background: url("../../images/light.png") 0 0/cover no-repeat;
+  background: url("/Future-tech/images/light.png") 0 0/cover no-repeat;
 }
 @media (width <= 90.06125rem) {
   .hero__resources-preview {
@@ -1116,7 +1116,7 @@ button[aria-label]::before {
     width: var(--100vw);
     margin-left: calc(var(--container-padding-x) * -1);
     padding: 6.25rem 2.5rem 2.5rem;
-    background-image: url("../../images/light-mobile.png");
+    background-image: url("/Future-tech/images/light-mobile.png");
     background-size: contain;
   }
 }
@@ -1818,13 +1818,13 @@ button[aria-label]::before {
   --size: 1.5rem;
   width: var(--size);
   height: var(--size);
-  background-image: url("../../icons/star-gray.svg");
+  background-image: url("/Future-tech/icons/star-gray.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .rating-view__star.is-active {
-  background-image: url("../../icons/star-yellow.svg");
+  background-image: url("/Future-tech/icons/star-yellow.svg");
   background-repeat: no-repeat;
 }
 @media (width <= 90.06125rem) {
@@ -2592,7 +2592,7 @@ button[aria-label]::before {
   width: var(--size);
   height: var(--size);
   content: "";
-  background: url("../../icons/Icon-white-down-arrow.svg") center/contain no-repeat;
+  background: url("/Future-tech/icons/Icon-white-down-arrow.svg") center/contain no-repeat;
   transition-duration: var(--transition-duration);
 }
 @media (width <= 90.06125rem) {
