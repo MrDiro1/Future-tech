@@ -14,3 +14,5 @@ A multi-page responsive website built with HTML, SCSS, and JavaScript
 - SCSS
 - JavaScript
 - Git
+
+- 🔗 [View website on GitHub Pages](https://mrdiro1.github.io/Future-tech/index.html)
