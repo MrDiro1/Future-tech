@@ -1,0 +1,33 @@
+@use '../helpers' as *;
+
+.rating-view {
+	display: inline-flex;
+	column-gap: rem(7);
+	padding: rem(10) rem(16);
+	border-radius: rem(100);
+	border: var(--border);
+
+	@include laptop {
+		column-gap: rem(4);
+		padding: rem(8) rem(12);
+	}
+
+	&__star {
+		--size: #{rem(24)};
+
+		@include square(var(--size));
+		background-image: url('../../icons/star-gray.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+
+		&.is-active {
+			background-image: url('../../icons/star-yellow.svg');
+			background-repeat: no-repeat;
+		}
+
+		@include laptop {
+			--size: #{rem(20)};
+		}
+	}
+}
