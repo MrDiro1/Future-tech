@@ -9,8 +9,12 @@ A multi-page responsive website built with HTML, SCSS, and JavaScript
 - Blog (`blog.html`)
 - Contacts (`contacts.html`)
 
+- 🔗 [View website on GitHub Pages](https://mrdiro1.github.io/Future-tech/index.html)
+
 ## Technologies:
 - HTML5
 - SCSS
 - JavaScript
 - Git
+
+- 
